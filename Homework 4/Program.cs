@@ -1,20 +1,31 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Homework_4
 {  
     internal class Program
     {
-        private static FirstHomework firstHomework = new FirstHomework();
-        private static SecondHomework secondHomework = new SecondHomework();
-        static void Main(string[] args)
-        {
-            int[] arr = { 4, 7, 9, 12, 14 };
+        //Uncomment these to test the project.
+        //private static readonly FirstHomework firstHomework = new FirstHomework();
+        //private static readonly SecondHomework secondHomework = new SecondHomework();
+        private static readonly ThirdHomework thirdHomework = new ThirdHomework();
+        //private static readonly FourthHomework fourthHomework = new FourthHomework();
+        static void Main()
+        {           
+            //int[] arr = { 4, 7, 9, 12, 14 };
+            Console.Write("The amount of the purchase - ");
+            string pur = Console.ReadLine();
+
+            if (float.TryParse(pur, out float value))
+            {
+                thirdHomework.DiscountedPrice(value);
+            }
+            else
+            {
+                Console.WriteLine("Invalid input, please enter a valid float value.");
+            }                   
             //firstHomework.DividesToThree(7,18);
-            secondHomework.MinimumMaximum(arr);
+            //secondHomework.MinimumMaximum(arr);
+            //Console.WriteLine(fourthHomework.ArithmeticMean(arr)); 
         }
     }
 }
@@ -57,10 +68,43 @@ class SecondHomework
 
 class ThirdHomework
 {
-
+    public void DiscountedPrice(float purchase)
+    {
+        float finalPrice = purchase;
+        float res;
+        switch (purchase)
+        {
+            case float p when p > 1000f:
+                //10 percent discount to this.
+                res = purchase * 10 / 100;
+                finalPrice -= res;
+                Console.WriteLine(finalPrice);
+                break;
+            case float p when p > 100 && p < 1000:
+                //8 percent discount to this.              
+                res =  purchase * 8 / 100;
+                finalPrice -= res;
+                Console.WriteLine(finalPrice);
+                break;
+            default:
+                //5 percent discount to this.
+                res = purchase * 5 / 100;
+                finalPrice -= res;
+                Console.WriteLine(finalPrice);
+                break;
+        }
+    }
 }
 
 class FourthHomework
 {
-
+    public float ArithmeticMean(int[] arr)
+    {
+        float result = default;
+        for (int i = 0; i < arr.Length; i++)
+        {
+            result += arr[i];
+        }
+        return result / arr.Length;
+    }
 }
