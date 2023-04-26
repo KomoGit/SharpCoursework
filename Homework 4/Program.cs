@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Homework_4
 {  
@@ -7,17 +8,19 @@ namespace Homework_4
         //Uncomment these to test the project.
         //private static readonly FirstHomework firstHomework = new FirstHomework();
         //private static readonly SecondHomework secondHomework = new SecondHomework();
-        private static readonly ThirdHomework thirdHomework = new ThirdHomework();
+        //private static readonly ThirdHomework thirdHomework = new ThirdHomework();
         //private static readonly FourthHomework fourthHomework = new FourthHomework();
+        private static FifthHomework FifthHomework = new FifthHomework();
         static void Main()
         {           
             //int[] arr = { 4, 7, 9, 12, 14 };
-            Console.Write("The amount of the purchase - ");
+            //Console.Write("The amount of the purchase - ");
             string pur = Console.ReadLine();
 
             if (float.TryParse(pur, out float value))
             {
-                thirdHomework.DiscountedPrice(value);
+                //thirdHomework.DiscountedPrice(value);
+                Console.WriteLine(FifthHomework.DetermineGrade(value));
             }
             else
             {
@@ -106,5 +109,27 @@ class FourthHomework
             result += arr[i];
         }
         return result / arr.Length;
+    }
+}
+
+class FifthHomework
+{   
+    public char DetermineGrade(float grade)
+    {
+        switch (grade)
+        {
+            case float g when g >= 90:
+                return 'A';
+            case float g when g >= 80:
+                return 'B';
+            case float g when g >= 70:
+                return 'C';
+            case float g when g >= 60:
+                return 'D';
+            case float g when g > 50:
+                return 'E';
+            default:
+                return 'F';
+        } 
     }
 }
