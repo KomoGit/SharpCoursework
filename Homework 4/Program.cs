@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace Homework_4
 {  
@@ -10,24 +9,23 @@ namespace Homework_4
         //private static readonly SecondHomework secondHomework = new SecondHomework();
         //private static readonly ThirdHomework thirdHomework = new ThirdHomework();
         //private static readonly FourthHomework fourthHomework = new FourthHomework();
-        private static FifthHomework FifthHomework = new FifthHomework();
+        //private static readonly FifthHomework FifthHomework = new FifthHomework();
         static void Main()
         {           
             //int[] arr = { 4, 7, 9, 12, 14 };
             //Console.Write("The amount of the purchase - ");
-            string pur = Console.ReadLine();
+            //string pur = Console.ReadLine();
 
-            if (float.TryParse(pur, out float value))
-            {
-                //thirdHomework.DiscountedPrice(value);
-                Console.WriteLine(FifthHomework.DetermineGrade(value));
-            }
-            else
-            {
-                Console.WriteLine("Invalid input, please enter a valid float value.");
-            }                   
+            //if (float.TryParse(pur, out float value))
+            //{
+            //    //thirdHomework.DiscountedPrice(value);
+            //    Console.WriteLine(FifthHomework.DetermineGrade(value));
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid input, please enter a valid float value.");
+            //}                   
             //firstHomework.DividesToThree(7,18);
-            //secondHomework.MinimumMaximum(arr);
             //Console.WriteLine(fourthHomework.ArithmeticMean(arr)); 
         }
     }
@@ -49,23 +47,22 @@ class FirstHomework
 
 class SecondHomework
 {
-    public void MinimumMaximum(int[] arr)
-    {
+    public int[] MinimumMaximum(int[] arr)
+    {     
         int min = arr[0];
         int max = arr[0];
         for (int i = 0; i < arr.Length; i++) 
         {
             if(arr[i] > max)
             {
-                max = arr[i];             
+                max = arr[i];
             }
             if (arr[i] < min)
             {
                 min = arr[i];
             }
         }
-        Console.WriteLine(min);
-        Console.WriteLine(max);
+        return new int[] { min,max };
     }
 }
 
