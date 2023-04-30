@@ -4,29 +4,9 @@ namespace Homework_4
 {  
     internal class Program
     {
-        //Uncomment these to test the project.
-        //private static readonly FirstHomework firstHomework = new FirstHomework();
-        //private static readonly SecondHomework secondHomework = new SecondHomework();
-        //private static readonly ThirdHomework thirdHomework = new ThirdHomework();
-        //private static readonly FourthHomework fourthHomework = new FourthHomework();
-        //private static readonly FifthHomework FifthHomework = new FifthHomework();
         static void Main()
         {           
-            //int[] arr = { 4, 7, 9, 12, 14 };
-            //Console.Write("The amount of the purchase - ");
-            //string pur = Console.ReadLine();
 
-            //if (float.TryParse(pur, out float value))
-            //{
-            //    //thirdHomework.DiscountedPrice(value);
-            //    Console.WriteLine(FifthHomework.DetermineGrade(value));
-            //}
-            //else
-            //{
-            //    Console.WriteLine("Invalid input, please enter a valid float value.");
-            //}                   
-            //firstHomework.DividesToThree(7,18);
-            //Console.WriteLine(fourthHomework.ArithmeticMean(arr)); 
         }
     }
 }
@@ -47,7 +27,7 @@ class FirstHomework
 
 class SecondHomework
 {
-    public int[] MinimumMaximum(int[] arr)
+    public int[] MinimumMaximum(params int[] arr)
     {     
         int min = arr[0];
         int max = arr[0];
@@ -68,30 +48,24 @@ class SecondHomework
 
 class ThirdHomework
 {
-    public void DiscountedPrice(float purchase)
+    public float DiscountedPrice(float purchase)
     {
         float finalPrice = purchase;
-        float res;
+        float result;
         switch (purchase)
         {
             case float p when p > 1000f:
-                //10 percent discount to this.
-                res = purchase * 10 / 100;
-                finalPrice -= res;
-                Console.WriteLine(finalPrice);
-                break;
-            case float p when p > 100 && p < 1000:
-                //8 percent discount to this.              
-                res =  purchase * 8 / 100;
-                finalPrice -= res;
-                Console.WriteLine(finalPrice);
-                break;
+                result = purchase * 10 / 100;
+                finalPrice -= result;
+                return finalPrice;
+            case float p when p > 100 && p < 1000:            
+                result =  purchase * 8 / 100;
+                finalPrice -= result;
+                return finalPrice;
             default:
-                //5 percent discount to this.
-                res = purchase * 5 / 100;
-                finalPrice -= res;
-                Console.WriteLine(finalPrice);
-                break;
+                result = purchase * 5 / 100;
+                finalPrice -= result;
+                return finalPrice;
         }
     }
 }

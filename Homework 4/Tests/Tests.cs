@@ -1,9 +1,4 @@
 ﻿using NUnit.Framework;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Homework_4.Tests
 {
@@ -13,9 +8,7 @@ namespace Homework_4.Tests
     {
         //private static readonly FirstHomework firstHomework = new FirstHomework();
         private static readonly SecondHomework secondHomework = new SecondHomework();
-        //private static readonly ThirdHomework thirdHomework = new ThirdHomework();
 
-        //MinimumMaximum Test cases.
         [TestCase]
         public void MinimumMaximum()
         {
@@ -37,6 +30,19 @@ namespace Homework_4.Tests
             int[] expected = { -7, 0};
             Assert.AreEqual(expected,secondHomework.MinimumMaximum(arr));
         }
+    }
+    [TestFixture]
+    internal class DiscountedPriceTest
+    {
+        private static readonly ThirdHomework thirdHomework = new ThirdHomework();    
+        float expected;
+
+        [TestCase]
+        public void MoreThanThousand()
+        {
+
+        }
+
     }
     [TestFixture]
     internal class ArithmetricMeanTests
