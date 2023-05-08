@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace Practice
 {
@@ -6,11 +7,11 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            ThirdPractice third = new ThirdPractice();
-            int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9,10};
-            char[] chars = { 'a', 'b', 'c', 'd', 'e' };
-            string[] strings = {"a","b","c","d","e" };
-            Console.WriteLine(third.FindIndexOfElement(strings,"a"));
+            //ThirdPractice third = new ThirdPractice();
+            //int[] nums = { 1, 2, 3, 4, 5, 6, 7, 8, 9,10};
+            //char[] chars = { 'a', 'b', 'c', 'd', 'e' };
+            //string[] strings = {"a","b","c","d","e" };
+            //Console.WriteLine(third.FindIndexOfElement(strings,"a"));
             //for (int i = 0; i < nums.Length; i++)
             //{
             //    if (nums[i] % 2 == 0)
@@ -18,6 +19,12 @@ namespace Practice
             //        Console.WriteLine(nums[i]);
             //    }
             //}
+            FourthPratcice fourth = new FourthPratcice();
+            //Console.WriteLine(fourth.LengthOfWord("Hello!"));
+            //Console.WriteLine(fourth.ReturnSurname("James Clyde"));
+            //Console.WriteLine(fourth.PalindromeText("James","Ray"));
+            Console.WriteLine(fourth.SortByAlphabeticalOrder("James"));
+
         }
     }
 
@@ -57,5 +64,40 @@ internal class ThirdPractice
             }
         }
         return -1;
+    }
+}
+
+internal class FourthPratcice
+{
+    public int LengthOfWord(string str)
+    {
+        return str.Length;
+    }
+
+    public string ReturnSurname(string fullname)
+    {
+        string[] split = fullname.Split(' ');
+        return split[1];
+    }
+
+    public string SortByAlphabeticalOrder(string text)
+    {
+        string a = text.ToLower();
+        char[] chars = a.ToCharArray();
+        Array.Sort(chars);
+        return new string(chars);
+    }
+
+    public bool PalindromeText(string text1,string text2)
+    {
+        string a = text1.ToLower();
+        string b = text2.ToLower();
+        char c = a[0];
+        char d = b[text2.Length - 1];
+        if (c == d) 
+        { 
+            return true; 
+        }
+        return false;
     }
 }
