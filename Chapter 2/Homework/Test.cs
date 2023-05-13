@@ -11,7 +11,7 @@ namespace Homework
         public void TestHelloWorld()
         {
             string inserted = "Hello World";
-            float expected = 1052;
+            float expected = 1052f;
             Assert.AreEqual(expected, first.SumASCIIValues(inserted));
         }
 
