@@ -93,15 +93,6 @@ namespace Practice
                     swtc = true;
                 }
             }
-            //for (int i = 0; i < randomRange; i++)
-            //{
-            //    char current = (char)rnd.Next(1, randomRange);
-            //    if (current != prev)
-            //    {
-            //        Console.Write(current);
-            //        prev = current;
-            //    }
-            //}
         }
     }
 }
