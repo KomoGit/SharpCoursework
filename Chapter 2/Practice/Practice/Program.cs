@@ -7,10 +7,10 @@ namespace Practice
         static void Main(string[] args)
         {
             FirstPractice first = new FirstPractice();
-            char[] index = { 'a','b' };
-            Console.WriteLine(first.GetLastName("James Clyde Henry"));
-            Console.WriteLine(first.GetLastName("Walter White Hartwell"));
-            Console.WriteLine(first.FindRepatedStrings("aberereabererereaberereraberererab",index));
+            char[] index = { 'c','g' };
+            //Console.WriteLine(first.GetLastName("James Clyde Henry"));
+            //Console.WriteLine(first.GetLastName("Walter White Hartwell"));
+            Console.WriteLine(first.FindRepatedStrings("afcgafcgafcgafafafcgafafafcg",index));
         }
     }
 
