@@ -52,7 +52,7 @@ namespace Practice
             int prev = 0;
             for (int i = 0; i < randomRange; i++)
             {
-                int current = rnd.Next(1, randomRange);
+                int current = rnd.Next(1, 11);
                 if (current != prev)
                 {
                     Console.Write(current);
@@ -67,7 +67,7 @@ namespace Practice
             char prev = default;
             for (int i = 0; i < randomRange; i++)
             {
-                char current = (char)rnd.Next(1, randomRange);
+                char current = (char)rnd.Next(1, 11);
                 if (current != prev)
                 {
                     Console.Write(current);
@@ -84,15 +84,16 @@ namespace Practice
             {
                 if (swtc)
                 {
-                    Console.WriteLine((char)rnd.Next(1,randomRange));
+                    Console.Write((char)rnd.Next(1,11));
                     swtc = false;
                 }
                 else
                 {
-                    Console.WriteLine(rnd.Next(1,randomRange));
+                    Console.Write(rnd.Next(1,11));
                     swtc = true;
                 }
             }
+            Console.WriteLine("");
         }
     }
 }
