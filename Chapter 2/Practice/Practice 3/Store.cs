@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Security.Policy;
 
 namespace Practice_3
 {
@@ -20,15 +18,20 @@ namespace Practice_3
         }
 
         public Phone[] phones = new Phone[0];
-        public Store(string name, Phone[] phones)
+        public Store(string name, Phone[] Phones)
         {
             _name = name;
-            
+            phones = Phones;      
         }
-
         private decimal _Income;
-
-        public decimal Revenue { get { return _Income; } private set { } }
+        public decimal Revenue 
+        {
+            get 
+            { 
+                return _Income; 
+            } 
+            private set { } 
+        }
 
         public void AddPhone(Phone phone)
         {
@@ -60,9 +63,9 @@ namespace Practice_3
                 {
                     count--;
                     _Income += item.Price * count;
-                }
-                throw new Exception("Not available.");
+                }   
             }
+            throw new Exception("Not available.");
         }
 
         public Phone GetAllPhones()
