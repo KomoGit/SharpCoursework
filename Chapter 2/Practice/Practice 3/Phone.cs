@@ -5,7 +5,13 @@ namespace Practice_3
     internal class Phone
     {
         private readonly string _Id;
-        public string Id { get { return _Id; } }
+        public string Id 
+        { 
+            get 
+            { 
+                return _Id; 
+            } 
+        }
         private string _name;
         public string Name
         {
@@ -19,7 +25,8 @@ namespace Practice_3
             }
         }
         private string _model;
-        public string Model {
+        public string Model 
+        {
             get 
             { 
                 return _model; 
@@ -34,12 +41,25 @@ namespace Practice_3
         }
         public string SerialNumber;
         public decimal Price;
-        public Phone(string id,string name,string model,decimal price)
+        private int _count;
+        public int Count 
+        { 
+            get 
+            {
+                return _count; 
+            } 
+            set 
+            { 
+                if (value > 0) _count = value; 
+            } 
+        }
+        public Phone(string id,string name,string model,decimal price,int count)
         {
             _Id = id;
             _name = name;
             _model = model;
             Price = price;
+            _count = count;
             GenerateSerialNumber();
         }
 
