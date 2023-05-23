@@ -17,7 +17,7 @@ namespace HomeworkFour
             }
         }
 
-        public Phone[] phones = new Phone[0];
+        public Phone[] phones = Array.Empty<Phone>();
         public Store(string name, Phone[] Phones)
         {
             _name = name;
@@ -41,7 +41,7 @@ namespace HomeworkFour
 
         public void RemovePhone(string id)
         {
-            Phone[] newPhones = new Phone[0];
+            Phone[] newPhones = Array.Empty<Phone>();
             foreach (Phone item in phones)
             {
                 if(item.Id != id)
@@ -49,7 +49,8 @@ namespace HomeworkFour
                     if (item.Id != id)
                     {
                         Array.Resize(ref newPhones, newPhones.Length + 1);
-                        newPhones[newPhones.Length - 1] = item;
+                        //newPhones[newPhones.Length - 1] = item;
+                        newPhones[^1] = item;
                     }
                 }
             }

@@ -1,13 +1,15 @@
-﻿using System;
+﻿using Homework_4;
 
-namespace HomeworkFour{
-    class Program{
-        private static int userSelection;
-        public static void Main(){
-            Console.WriteLine("Insert what you wish to do: ");
-            userSelection = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine(userSelection);
+namespace HomeworkFour
+{
+    class Program
+    {
+        //private static int userSelection;
+        //private static bool isRunning = true;
+        private static readonly ApplicationLogic appLogic = new ApplicationLogic();
+        public static void Main(string[] args)
+        {
+            appLogic.ApplicationRun();
         }
     }
-
 }

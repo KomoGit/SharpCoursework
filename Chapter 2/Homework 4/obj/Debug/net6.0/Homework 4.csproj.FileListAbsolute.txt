@@ -13,3 +13,18 @@ C:\Users\Администратор\Desktop\SharpCoursework\Chapter 2\Homework 4
 C:\Users\Администратор\Desktop\SharpCoursework\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.pdb
 C:\Users\Администратор\Desktop\SharpCoursework\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.genruntimeconfig.cache
 C:\Users\Администратор\Desktop\SharpCoursework\Chapter 2\Homework 4\obj\Debug\net6.0\ref\Homework 4.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\bin\Debug\net6.0\Homework 4.exe
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\bin\Debug\net6.0\Homework 4.deps.json
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\bin\Debug\net6.0\Homework 4.runtimeconfig.json
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\bin\Debug\net6.0\Homework 4.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\bin\Debug\net6.0\Homework 4.pdb
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.csproj.AssemblyReference.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.AssemblyInfoInputs.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.AssemblyInfo.cs
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.csproj.CoreCompileInputs.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\refint\Homework 4.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.pdb
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\Homework 4.genruntimeconfig.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 4\obj\Debug\net6.0\ref\Homework 4.dll

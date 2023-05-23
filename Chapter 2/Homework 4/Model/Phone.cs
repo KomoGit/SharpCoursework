@@ -58,9 +58,9 @@ namespace HomeworkFour
             _Id = id;
             _name = name;
             _model = model;
-            Price = price;
             _count = count;
-            GenerateSerialNumber();
+            Price = price;
+            SerialNumber = GenerateSerialNumber();
         }
 
         public string ShowInfo()
@@ -68,9 +68,9 @@ namespace HomeworkFour
             return $"{Name} {_Id} {SerialNumber} {Price} USD";
         }
 
-        public void GenerateSerialNumber()
+        private string GenerateSerialNumber()
         {
-            SerialNumber = _name.Substring(0,2) + _model.Substring(0,2);
+            return string.Concat(_name.AsSpan(0,2), _model.AsSpan(0,2));
         }
     }
 }
