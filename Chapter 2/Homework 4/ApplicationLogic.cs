@@ -5,17 +5,18 @@ namespace Homework_4
     internal class ApplicationLogic
     {
         private bool isRunning = true;
-
         public void ApplicationRun()
         {
             while (isRunning)
             {
                 Console.WriteLine("Insert what you wish to do: ");
-                ProcessUserInput(ConvertUserInput(userInput: Console.ReadLine()));
+                string? userInput; //Ensuring it is nullable so ReadLine() would stop annoying me.
+                userInput = Console.ReadLine();
+                ProcessUserInput(ConvertUserInput(userInput: userInput));
             }
         }
 
-        public static int ConvertUserInput(dynamic userInput)
+        public static int ConvertUserInput(string? userInput)
         {
             try
             {
@@ -37,8 +38,8 @@ namespace Homework_4
                     isRunning = false;
                     break;
                 case 1:
-                    Console.WriteLine("First Input");
-                    //phone.ShowInfo();
+                    Console.WriteLine("Get all phones");
+                    // _store.GetAllPhones();
                     break;
                 case 2:
                     Console.WriteLine("Second Input");

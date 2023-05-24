@@ -4,9 +4,7 @@ namespace HomeworkFour
 {
     class Program
     {
-        //private static int userSelection;
-        //private static bool isRunning = true;
-        private static readonly ApplicationLogic appLogic = new ApplicationLogic();
+        private static readonly ApplicationLogic appLogic = new ApplicationLogic();//What is this dart? Why do i have to do null check?
         public static void Main(string[] args)
         {
             appLogic.ApplicationRun();

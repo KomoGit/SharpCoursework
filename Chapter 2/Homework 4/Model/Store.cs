@@ -2,7 +2,7 @@
 
 namespace HomeworkFour
 {
-    internal class Store
+    class Store
     {
         private string _name;
         public string Name
