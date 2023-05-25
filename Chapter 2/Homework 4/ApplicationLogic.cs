@@ -4,6 +4,10 @@ namespace Homework_4
 {
     internal class ApplicationLogic
     {
+        private Phone ph1 = new Phone(id:"000AA","IPhone","XS Max",690,10);
+        private Phone ph2 = new Phone(id:"000AB","IPhone","13 Pro Max",1000,10);
+        private Phone ph3 = new Phone(id:"000AC",name:"IPhone",model:"11 Pro Max",price:1000,count:25);
+
         private bool isRunning = true;
         public void ApplicationRun()
         {
@@ -38,8 +42,8 @@ namespace Homework_4
                     isRunning = false;
                     break;
                 case 1:
-                    Console.WriteLine("Get all phones");
-                    // _store.GetAllPhones();
+                    Console.WriteLine("Get Phone Information.");
+                    Console.WriteLine(ph1.ShowInfo());       
                     break;
                 case 2:
                     Console.WriteLine("Second Input");
