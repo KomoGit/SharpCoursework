@@ -18,10 +18,10 @@ namespace HomeworkFour
         }
 
         public Phone[] phones = Array.Empty<Phone>();
-        public Store(string name, Phone[] Phones)
+        public Store(string name, Phone[] PhonesArray)
         {
             _name = name;
-            phones = Phones;      
+            phones = PhonesArray;      
         }
         private decimal _Income;
         public decimal Revenue 
@@ -33,7 +33,7 @@ namespace HomeworkFour
             private set { } 
         }
 
-        public void AddPhone(Phone phone)
+        private void AddPhone(Phone phone)
         {
             Array.Resize(ref phones,phones.Length + 1);
             phones[phones.Length - 1] = phone;
@@ -49,7 +49,6 @@ namespace HomeworkFour
                     if (item.Id != id)
                     {
                         Array.Resize(ref newPhones, newPhones.Length + 1);
-                        //newPhones[newPhones.Length - 1] = item;
                         newPhones[^1] = item;
                     }
                 }
@@ -58,6 +57,10 @@ namespace HomeworkFour
         }
         public void SellItem(string id,int count)
         {
+            if(phones.Length < count)
+            {
+                throw new Exception("Not available.");
+            }
             foreach (Phone item in phones)
             {
                 if (item.Id == id && item.Count > 0 && item.Count > count)
@@ -66,43 +69,42 @@ namespace HomeworkFour
                     _Income += item.Price * count;
                 }   
             }
-            throw new Exception("Not available.");
         }
 
-        public Phone GetAllPhones()
+        public void GetAllPhones()
         {
-            if (phones.Length != 0)
+            if (phones.Length == 0)
             {
-                foreach (Phone item in phones)
+                throw new Exception("Phones are empty.");
+            }
+            foreach (Phone item in phones)
+            {
+                Console.WriteLine(item.ShowInfo());
+            }
+        }
+
+        public void GetPhoneInRange(decimal MaxPrice, decimal MinPrice)
+        {
+            foreach (Phone item in phones)
+            {
+                if (item.Price <= MaxPrice && item.Price >= MinPrice)
                 {
-                    return item;
+                    Console.WriteLine(item.ShowInfo());
                 }
             }
-            throw new Exception("Phones are empty.");
+            throw new Exception("Could not find in these parameters.");
         }
 
-        public string GetPhoneInRange(decimal MaxPrice, decimal MinPrice)
-        {
-            foreach (Phone phone in phones)
-            {
-                if (phone.Price <= MaxPrice && phone.Price >= MinPrice)
-                {
-                    return phone.ShowInfo();
-                }
-            }
-            return "Could not be found in these parameters";
-        }
-
-        public string GetPhoneInRange(decimal MaxPrice)
+        public void GetPhoneInRange(decimal MaxPrice)
         {
             foreach (Phone phone in phones)
             {
                 if (phone.Price <= MaxPrice)
                 {
-                    return phone.ShowInfo();
-                }
+                    Console.WriteLine(phone.ShowInfo());
+                }            
             }
-            return "Could not be found in these parameters";
+            throw new Exception("Could not find in this parametes.");
         }
     }
 }

@@ -4,10 +4,11 @@ namespace Homework_4
 {
     internal class ApplicationLogic
     {
-        private Phone ph1 = new Phone(id:"000AA","IPhone","XS Max",690,10);
-        private Phone ph2 = new Phone(id:"000AB","IPhone","13 Pro Max",1000,10);
-        private Phone ph3 = new Phone(id:"000AC",name:"IPhone",model:"11 Pro Max",price:1000,count:25);
-
+        private static Phone ph1 = new Phone(id:"000AA","IPhone","XS Max",690,10);
+        private static Phone ph2 = new Phone(id:"000AB","IPhone","13 Pro Max",700,10);
+        private static Phone ph3 = new Phone(id:"000AC",name:"IPhone",model:"11 Pro Max",price:1000,count:25);
+        private static Phone[] phones = new Phone[] {ph1,ph2,ph3};
+        private Store str = new Store(name: "Bubu Store",PhonesArray: phones);
         private bool isRunning = true;
         public void ApplicationRun()
         {
@@ -33,6 +34,19 @@ namespace Homework_4
             }        
         }
 
+        public static int ConvertUserInput(string? userInput,int returnCode)
+        {
+            try
+            {
+                int userSelection = Convert.ToInt32(userInput);
+                return userSelection;
+            }
+            catch(FormatException)
+            {
+                return returnCode;//By default we are giving out zero code but with this override we can give any code.
+            }        
+        }
+
         public void ProcessUserInput(int input)
         {
             switch (input)
@@ -42,25 +56,81 @@ namespace Homework_4
                     isRunning = false;
                     break;
                 case 1:
-                    Console.WriteLine("Get Phone Information.");
-                    Console.WriteLine(ph1.ShowInfo());       
+                    Console.WriteLine("Get All Phones Information.");
+                    str.GetAllPhones();       
                     break;
                 case 2:
-                    Console.WriteLine("Second Input");
-                    //store.SellItem();
+                    Console.WriteLine("Sell phone from store.");
+                    SellItemUserControl();
                     break;
                 case 3:
-                    Console.WriteLine("Third Input");
+                    Console.WriteLine("Get phone in price range (MAX PRICE)");
+                    FindItemWithMaxPrice();
                     break;
                 case 4:
-                    Console.WriteLine("Fourth Input");
+                    Console.WriteLine("Get phone in price range (MIN PRICE) (MAX PRICE)");
+                    //str.GetPhoneInRange();
                     break;
                 case 5:
-                    Console.WriteLine("Fifth Input");
+                    Console.WriteLine("Remove Phone from Store");
+                    RemoveItemFromStore();
                     break;
                 default:
                     Console.Clear();
                     break;
+            }
+        }
+        private void SellItemUserControlMinMax()
+        {
+            try
+            {
+            //     System.Console.WriteLine("Insert Min Price");
+            //     decimal? MinPrice = Console.ReadLine()!;//Console.ReadLine()!;
+            //     System.Console.WriteLine("Insert Max Price");
+            //     decimal? MaxPrice = Console.ReadLine()!;//Console.ReadLine();
+            //     str.GetPhoneInRange(MinPrice: MinPrice,MaxPrice: MaxPrice);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+        private void RemoveItemFromStore(){
+            str.GetAllPhones();
+            Console.WriteLine("Insert phone ID");
+            string? userIDInput = Console.ReadLine()!;
+            str.RemovePhone(userIDInput);
+            str.GetAllPhones();
+        }
+        private void SellItemUserControl()
+        {
+            try
+            {
+                Console.WriteLine("Insert phone ID");
+                string? userIDInput = Console.ReadLine();
+                Console.WriteLine("Insert count");
+                string? userCountInput = Console.ReadLine();
+                int b = ConvertUserInput(userInput: userCountInput!,2);
+                string a = userIDInput!;
+                str.SellItem(id: a,count: b);
+                Console.WriteLine(str.Revenue);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        private void FindItemWithMaxPrice(){
+            try
+            {
+                string? userMaxPrice = Console.ReadLine();
+                int a = ConvertUserInput(userMaxPrice);
+                str.GetPhoneInRange(a);
+            }
+            catch(Exception e)
+            {
+                System.Console.WriteLine(e.Message);
             }
         }
     }
