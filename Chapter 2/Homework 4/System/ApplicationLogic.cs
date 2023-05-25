@@ -46,7 +46,6 @@ namespace Homework_4
                 return returnCode;//By default we are giving out zero code but with this override we can give any code.
             }        
         }
-
         public void ProcessUserInput(int input)
         {
             switch (input)
@@ -61,7 +60,7 @@ namespace Homework_4
                     break;
                 case 2:
                     Console.WriteLine("Sell phone from store.");
-                    SellItemUserControl();
+                    SellItem();
                     break;
                 case 3:
                     Console.WriteLine("Get phone in price range (MAX PRICE)");
@@ -69,7 +68,7 @@ namespace Homework_4
                     break;
                 case 4:
                     Console.WriteLine("Get phone in price range (MIN PRICE) (MAX PRICE)");
-                    //str.GetPhoneInRange();
+                    FindItemMinMax();
                     break;
                 case 5:
                     Console.WriteLine("Remove Phone from Store");
@@ -80,15 +79,15 @@ namespace Homework_4
                     break;
             }
         }
-        private void SellItemUserControlMinMax()
+        private void FindItemMinMax()
         {
             try
             {
-            //     System.Console.WriteLine("Insert Min Price");
-            //     decimal? MinPrice = Console.ReadLine()!;//Console.ReadLine()!;
-            //     System.Console.WriteLine("Insert Max Price");
-            //     decimal? MaxPrice = Console.ReadLine()!;//Console.ReadLine();
-            //     str.GetPhoneInRange(MinPrice: MinPrice,MaxPrice: MaxPrice);
+                Console.WriteLine("Insert Min Price");
+                string? MinPrice = Console.ReadLine()!;
+                System.Console.WriteLine("Insert Max Price");
+                string? MaxPrice = Console.ReadLine()!; 
+                str.GetPhoneInRange(Convert.ToDecimal(MinPrice),Convert.ToDecimal(MaxPrice));   
             }
             catch(Exception e)
             {
@@ -102,7 +101,7 @@ namespace Homework_4
             str.RemovePhone(userIDInput);
             str.GetAllPhones();
         }
-        private void SellItemUserControl()
+        private void SellItem()
         {
             try
             {
@@ -120,8 +119,8 @@ namespace Homework_4
                 Console.WriteLine(e.Message);
             }
         }
-
-        private void FindItemWithMaxPrice(){
+        private void FindItemWithMaxPrice()
+        {
             try
             {
                 string? userMaxPrice = Console.ReadLine();
@@ -130,7 +129,7 @@ namespace Homework_4
             }
             catch(Exception e)
             {
-                System.Console.WriteLine(e.Message);
+                Console.WriteLine(e.Message);
             }
         }
     }
