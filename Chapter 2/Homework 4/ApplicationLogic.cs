@@ -11,7 +11,9 @@ namespace Homework_4
             while (isRunning)
             {
                 Console.WriteLine("Insert what you wish to do: ");
-                ProcessUserInput(ConvertUserInput(userInput: Console.ReadLine()));
+                string? userInput;
+                userInput = Console.ReadLine(); 
+                ProcessUserInput(ConvertUserInput(userInput: userInput!));
             }
         }
 
@@ -37,8 +39,8 @@ namespace Homework_4
                     isRunning = false;
                     break;
                 case 1:
-                    Console.WriteLine("First Input");
-                    //phone.ShowInfo();
+                    Console.WriteLine("Show phone info.");
+
                     break;
                 case 2:
                     Console.WriteLine("Second Input");
