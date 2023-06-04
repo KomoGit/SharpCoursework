@@ -1,0 +1,8 @@
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\bin\Debug\Bank System.exe.config
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\bin\Debug\Bank System.exe
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\bin\Debug\Bank System.pdb
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\obj\Debug\Bank System.csproj.AssemblyReference.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\obj\Debug\Bank System.csproj.SuggestedBindingRedirects.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\obj\Debug\Bank System.csproj.CoreCompileInputs.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\obj\Debug\Bank System.exe
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 6\Bank System\obj\Debug\Bank System.pdb
