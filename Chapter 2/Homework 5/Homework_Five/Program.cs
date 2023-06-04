@@ -7,7 +7,12 @@ namespace Homework_Five
         public static void Main(string[] args)
         {
             Teacher teacher = new("Walter White",42,"Chemistry");
+            SomethingSomething s1 = new SomethingSomething();
             Console.WriteLine(teacher.IntroduceYourself());
         }
+    }
+    class SomethingSomething
+    {
+        string defaultAccessModifierVar = "Hello";
     }
 }
