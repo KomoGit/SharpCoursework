@@ -8,10 +8,13 @@ namespace Shapes
 {
     internal class Program
     {
+        static int[] a = { 1, 2, 3, };
         static void Main(string[] args)
         {
-            CalculateCircle();
-            CalculateSquare();
+            int a = default;
+            Console.WriteLine(a);
+            //CalculateCircle();
+            //CalculateSquare();
         }
 
         private static void CalculateSquare() 
@@ -24,6 +27,8 @@ namespace Shapes
             Circle circle = new Circle(50);
             Console.WriteLine(circle.CalculateArea());
         }
-
+        //int a  =5 : int b = 5;
+        
+        
     }
 }

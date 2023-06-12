@@ -1,0 +1,5 @@
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 4\Practice_Four\obj\Debug\net6.0\Practice_Four.csproj.AssemblyReference.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 4\Practice_Four\obj\Debug\net6.0\Practice_Four.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 4\Practice_Four\obj\Debug\net6.0\Practice_Four.AssemblyInfoInputs.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 4\Practice_Four\obj\Debug\net6.0\Practice_Four.AssemblyInfo.cs
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 4\Practice_Four\obj\Debug\net6.0\Practice_Four.csproj.CoreCompileInputs.cache
