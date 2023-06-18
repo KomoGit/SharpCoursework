@@ -34,6 +34,7 @@
                 }
             } 
         }
+
         public DateTime Date { get; private set; } = default;
 
         public string[] AllTransactions { get; set; }

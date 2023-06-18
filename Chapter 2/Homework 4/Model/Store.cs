@@ -16,7 +16,6 @@ namespace HomeworkFour
                 if (value.Length >= 3) _name = value;
             }
         }
-
         public Phone[] phones = Array.Empty<Phone>();
         public Store(string name, Phone[] PhonesArray)
         {
@@ -32,7 +31,6 @@ namespace HomeworkFour
             } 
             private set { } 
         }
-
         private void AddPhone(Phone phone)
         {
             Array.Resize(ref phones,phones.Length + 1);
@@ -70,7 +68,6 @@ namespace HomeworkFour
                 }   
             }
         }
-
         public void GetAllPhones()
         {
             if (phones.Length == 0)
@@ -82,7 +79,6 @@ namespace HomeworkFour
                 Console.WriteLine(item.ShowInfo());
             }
         }
-
         public void GetPhoneInRange(decimal MaxPrice, decimal MinPrice)
         {
             foreach (Phone item in phones)
@@ -94,7 +90,6 @@ namespace HomeworkFour
             }
             throw new Exception("Could not find in these parameters.");
         }
-
         public void GetPhoneInRange(decimal MaxPrice)
         {
             foreach (Phone phone in phones)
