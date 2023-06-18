@@ -52,22 +52,24 @@ namespace Practice_5
             }
             return ret;
         }
-        public void FindMostExpensive()
+        public Car FindMostExpensive()
         {
-            Car expensiveOne = default;
-            float maxPrice = Cars[0].Price;
-            for (int i = 0; i < Cars.Length; i++)
+            Car expensiveOne = Cars[0];
+            foreach (Car item in Cars)
             {
-                if (maxPrice < Cars[i].Price) 
+                if(item.Price > expensiveOne.Price) 
                 {
-                    maxPrice = Cars[i].Price;
-                    expensiveOne = Cars[i];
+                    expensiveOne = item;
                 }
             }
-            Console.WriteLine(expensiveOne);
+            if(expensiveOne == null)
+            {
+                return expensiveOne;
+            }
+            throw new Exception("MALFUNCTION 54");
         }
 
-        public void RemovePhone(int id)
+        public void RemoveCar(int id)
         {
             Car[] newCarGallery = new Car[0];
             foreach (Car item in Cars)
@@ -83,6 +85,5 @@ namespace Practice_5
             }
             Cars = newCarGallery;
         }
-
     }
 }

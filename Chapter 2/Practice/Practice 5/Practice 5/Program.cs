@@ -13,6 +13,7 @@ namespace Practice_5
             Gallery gal = new Gallery("VIP Motors",cars);
             //gal.FindMostExpensive();
             Console.WriteLine(gal.FindCarById(1)); 
+            //gal.GetAllCars();
         }
     }
 }
