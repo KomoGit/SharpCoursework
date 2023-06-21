@@ -8,19 +8,19 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Elnur\\.nuget\\packages\\": {}
+    "C:\\Users\\Администратор\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Elnur\\OneDrive\\Рабочий стол\\Lesson Chapter 1\\Chapter 2\\Homework 9\\Banking System\\Banking System.csproj",
+      "projectUniqueName": "C:\\Users\\Администратор\\Desktop\\Git\\SharpCoursework\\Chapter 2\\Homework 9\\Banking System\\Banking System.csproj",
       "projectName": "Banking System",
-      "projectPath": "C:\\Users\\Elnur\\OneDrive\\Рабочий стол\\Lesson Chapter 1\\Chapter 2\\Homework 9\\Banking System\\Banking System.csproj",
-      "packagesPath": "C:\\Users\\Elnur\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Elnur\\OneDrive\\Рабочий стол\\Lesson Chapter 1\\Chapter 2\\Homework 9\\Banking System\\obj\\",
+      "projectPath": "C:\\Users\\Администратор\\Desktop\\Git\\SharpCoursework\\Chapter 2\\Homework 9\\Banking System\\Banking System.csproj",
+      "packagesPath": "C:\\Users\\Администратор\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Администратор\\Desktop\\Git\\SharpCoursework\\Chapter 2\\Homework 9\\Banking System\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Elnur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Администратор\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }

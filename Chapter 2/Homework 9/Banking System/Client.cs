@@ -40,12 +40,12 @@ namespace Banking_System
 
         public void AddBankCard(BankCard bankCard)
         {
-            string[] temp = new string[BankCardCount];
+            BankCard[] temp = new BankCard[BankCardCount];
             if (BankCards != null)
             {
-                Array.Copy(GetAllBankCards, temp, BankCardCount - 1);
+                Array.Copy(BankCards, temp, BankCardCount - 1);
             }
-            temp[BankCardCount - 1] = transaction;
+            temp[BankCardCount - 1] = bankCard;
         }
 
         public void GetBankCardByPan(string pan)
