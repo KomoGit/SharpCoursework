@@ -1,0 +1,15 @@
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\bin\Debug\net6.0\Fruitcake.exe
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\bin\Debug\net6.0\Fruitcake.deps.json
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\bin\Debug\net6.0\Fruitcake.runtimeconfig.json
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\bin\Debug\net6.0\Fruitcake.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\bin\Debug\net6.0\Fruitcake.pdb
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.csproj.AssemblyReference.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.AssemblyInfoInputs.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.AssemblyInfo.cs
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.csproj.CoreCompileInputs.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\refint\Fruitcake.dll
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.pdb
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\Fruitcake.genruntimeconfig.cache
+C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 6\Fruitcake\obj\Debug\net6.0\ref\Fruitcake.dll
