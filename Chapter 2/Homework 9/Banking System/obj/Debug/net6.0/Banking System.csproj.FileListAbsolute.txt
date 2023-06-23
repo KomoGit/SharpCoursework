@@ -1,0 +1,15 @@
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\bin\Debug\net6.0\Banking System.exe
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\bin\Debug\net6.0\Banking System.deps.json
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\bin\Debug\net6.0\Banking System.runtimeconfig.json
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\bin\Debug\net6.0\Banking System.dll
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\bin\Debug\net6.0\Banking System.pdb
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.csproj.AssemblyReference.cache
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.AssemblyInfoInputs.cache
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.AssemblyInfo.cs
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.csproj.CoreCompileInputs.cache
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.dll
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\refint\Banking System.dll
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.pdb
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\Banking System.genruntimeconfig.cache
+C:\Users\Администратор\Desktop\Git\SharpCoursework\Chapter 2\Homework 9\Banking System\obj\Debug\net6.0\ref\Banking System.dll
