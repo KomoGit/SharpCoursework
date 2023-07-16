@@ -69,6 +69,6 @@ SELECT movie_title, box_office
 FROM movies
 WHERE box_office > 300000000;
 
-SELECT movie_title, imdb_rating, year_released
+SELECT movie_title, imdb_rating, year_released, language
 FROM movies
-WHERE year_released < 2001 AND imdb_rating >= 9;
+WHERE language LIKE 'ENG' AND box_office != 0;
