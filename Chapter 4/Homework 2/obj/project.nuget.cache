@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jMTengC2H3OD4s2EIuasUTMrFrArKXCHyrfpvkxPS6wxVoCuXrU+vfRcCGDz4A6FLY87gJ25e3TunIs0O2akIA==",
+  "dgSpecHash": "Z4bQaX+kRbwc1GkfzImBX+EMflXj5EHfjG2CZwWd3VNlO2a5mBMxQoTDL47T5RYNDdjoZUkUgN0PhV8ljDbdJw==",
   "success": true,
   "projectFilePath": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\Homework 2.csproj",
   "expectedPackageFiles": [
@@ -14,6 +14,7 @@
     "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.20\\microsoft.entityframeworkcore.design.6.0.20.nupkg.sha512",
     "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.20\\microsoft.entityframeworkcore.relational.6.0.20.nupkg.sha512",
     "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.20\\microsoft.entityframeworkcore.sqlserver.6.0.20.nupkg.sha512",
+    "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.20\\microsoft.entityframeworkcore.tools.6.0.20.nupkg.sha512",
     "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
     "C:\\Users\\Elnur\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

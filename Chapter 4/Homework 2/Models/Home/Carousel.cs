@@ -12,6 +12,6 @@ namespace Homework_2.Models.Home
         [Required]
         public string Bodies { get; set; }
         [NotMapped]
-        public IFormFile CarouselImages { get; set; }
+        public List<IFormFile> CarouselImages { get; set; }
     }
 }
