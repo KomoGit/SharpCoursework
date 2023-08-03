@@ -1,0 +1,68 @@
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\appsettings.Development.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\appsettings.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Homework 3.staticwebassets.runtime.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Homework 3.exe
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Homework 3.deps.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Homework 3.runtimeconfig.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Homework 3.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Homework 3.pdb
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Humanizer.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.csproj.AssemblyReference.cache
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.AssemblyInfoInputs.cache
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.AssemblyInfo.cs
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.csproj.CoreCompileInputs.cache
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.MvcApplicationPartsAssemblyInfo.cache
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.RazorAssemblyInfo.cache
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.RazorAssemblyInfo.cs
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets\msbuild.Homework 3.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets\msbuild.build.Homework 3.props
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Homework 3.props
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Homework 3.props
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets.build.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\staticwebassets.development.json
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\scopedcss\bundle\Homework 3.styles.css
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\scopedcss\projectbundle\Homework 3.bundle.scp.css
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.csproj.CopyComplete
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\refint\Homework 3.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.pdb
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\Homework 3.genruntimeconfig.cache
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 3\obj\Debug\net6.0\ref\Homework 3.dll

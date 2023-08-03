@@ -15,6 +15,6 @@ namespace Homework_2.Data
         public DbSet<Carousel> Carousels { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Lawyer> Lawyers { get; set; }
-        public DbSet<Socials> Socials { get; set; }
+        //public DbSet<Socials> Socials { get; set; }
     }
 }

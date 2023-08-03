@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<Contact>
+@{
+    ViewData["Title"] = "Create";
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -49,31 +54,34 @@
                     <h2>Contact Us</h2>
                 </div>
                 <div class="row">
+                    @foreach(var item in Model){
                     <div class="col-md-6">
+
                         <div class="contact-info">
                             <div class="contact-item">
                                 <i class="fa fa-map-marker-alt"></i>
                                 <div class="contact-text">
                                     <h2>Location</h2>
-                                    <p>123 Street, New York, USA</p>
+                                    <p>@item.Address</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="fa fa-phone-alt"></i>
                                 <div class="contact-text">
                                     <h2>Phone</h2>
-                                    <p>+012 345 67890</p>
+                                    <p>@item.Phone</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="fa fa-envelope"></i>
                                 <div class="contact-text">
                                     <h2>Email</h2>
-                                    <p>info@example.com</p>
+                                    <p>@item.EmailAddress</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                    }
                     <div class="col-md-6">
                         <div class="contact-form">
                             <form>

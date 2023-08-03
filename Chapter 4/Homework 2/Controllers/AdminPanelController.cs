@@ -1,7 +1,6 @@
 ﻿using Homework_2.Data;
 using Homework_2.Models.Attorneys;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace Homework_2.Controllers
 {
@@ -15,8 +14,19 @@ namespace Homework_2.Controllers
         }
         public IActionResult Index()
         {
-            IQueryable<Lawyer> lawyers = _context.Lawyers.Include("Socials");
+            IQueryable<Lawyer> lawyers = _context.Lawyers;
             return View(lawyers);
+        }
+        [HttpGet]
+        public IActionResult Create(Lawyer lawyer)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Lawyers.Add(lawyer);
+                _context.SaveChanges();
+                return RedirectToAction("index");
+            }
+            return View(lawyer);
         }
     }
 }
