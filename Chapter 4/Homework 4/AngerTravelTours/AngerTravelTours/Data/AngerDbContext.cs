@@ -16,7 +16,7 @@ namespace AngerTravelTours.Data
         public DbSet<ChooseUs> ChooseUs { get; set; }
         public DbSet<Gallery> Galleries { get; set; }
         public DbSet<Partner> Partners { get; set; }
-        public DbSet<Subscriber> Subscribes { get; set; }
+        public Subscriber Subscriber { get; set; } //was a DbSet<> before
         public DbSet<TourPackage> TourPackages { get; set; }
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Comment> Comments { get; set; }

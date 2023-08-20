@@ -1,8 +1,7 @@
 ﻿using AngerTravelTours.Data;
 using AngerTravelTours.Models;
-using Microsoft.AspNetCore.Http;
+using AngerTravelTours.ViewModel;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace AngerTravelTours.Controllers
 {
@@ -17,21 +16,35 @@ namespace AngerTravelTours.Controllers
 
         public ActionResult Index()
         {
+            //Subscriber sub = new();
+            //VMHome home = new()
+            //{
+            //    Feedbacks = _context.Feedbacks.ToList(),
+            //    Galleries = _context.Galleries.ToList(),
+            //    Partners = _context.Partners.ToList(),
+            //    Packages = _context.TourPackages.ToList(),
+            //    Subscriber = _context.Subscriber,
+            //    RecentPosts = _context.Blogs.OrderByDescending(o => o.AddedDate).Take(3).ToList()
+            //};
             return View();
         }
-
-        [HttpPost]
-        [ActionName("Create")]
-        //SERIALIZATION ISSUE
-        public IActionResult Create(Subscriber sub)
+        //SERIALIZATION ISSUE but how?!
+        [HttpPost]       
+        public IActionResult Create(Subscriber sub) //public IActionResult Create(Subscriber sub)
         {
+            //Console.WriteLine(email);
+            //Subscriber sub = new()
+            //{
+            //    Email = email,
+            //    AddedDate = DateTime.Now,
+            //};
             if (ModelState.IsValid)
             {
-                sub.AddedDate = DateTime.Now;
-                _context.Subscribes.Add(sub);
+                //sub.AddedDate = DateTime.Now;
+                _context.Subscriber = sub;
                 _context.SaveChanges();
             }
-            return RedirectToAction("index");
+            return RedirectToAction("index");//"home"
         }
     }
 }
