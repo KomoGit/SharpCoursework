@@ -1,12 +1,12 @@
 ﻿using AngerTravelTours.Data;
-using AngerTravelTours.Models;
+using AngerTravelTours.Interfaces;
 using AngerTravelTours.ViewModel;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
+
 
 namespace AngerTravelTours.Controllers
 {
-    public class AboutController : Controller
+    public class AboutController : Controller, INewsletterCreate
     {
         private readonly AngerDbContext _context;
 
@@ -14,6 +14,22 @@ namespace AngerTravelTours.Controllers
         {
             _context = context;
         }
+
+        public IActionResult Create(VMBase sub)
+        {
+            if (ModelState.IsValid)
+            {
+                if (sub.Subscriber == null)
+                {
+                    throw new Exception("Subscriber cannot be null!");
+                }
+                sub.Subscriber.AddedDate = DateTime.Now;
+                _context.Subscribes.Add(sub.Subscriber);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("index", "about");
+        }
+
         public IActionResult Index()
         {
             VMAbout model = new()

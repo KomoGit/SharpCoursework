@@ -1,4 +1,5 @@
 ﻿using AngerTravelTours.Data;
+using AngerTravelTours.Interfaces;
 using AngerTravelTours.Models;
 using AngerTravelTours.ViewModel;
 using Microsoft.AspNetCore.Mvc;
@@ -6,7 +7,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace AngerTravelTours.Controllers
 {
-    public class BlogController : Controller
+    public class BlogController : Controller, INewsletterCreate
     {
         private readonly AngerDbContext _context;
 
@@ -53,6 +54,21 @@ namespace AngerTravelTours.Controllers
                 RecentPosts = _context.Blogs.OrderByDescending(o => o.AddedDate).Take(3).ToList(),        
             };
             return View(blog);
+        }
+
+        public IActionResult Create(VMBase sub)
+        {
+            if (ModelState.IsValid)
+            {
+                if (sub.Subscriber == null)
+                {
+                    throw new Exception("Subscriber cannot be null!");
+                }
+                sub.Subscriber.AddedDate = DateTime.Now;
+                _context.Subscribes.Add(sub.Subscriber);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("index", "blog");
         }
     }
 }

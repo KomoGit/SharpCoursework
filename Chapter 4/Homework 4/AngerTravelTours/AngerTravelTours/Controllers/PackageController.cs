@@ -1,15 +1,31 @@
 ﻿using AngerTravelTours.Data;
+using AngerTravelTours.Interfaces;
 using AngerTravelTours.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AngerTravelTours.Controllers
 {
-    public class PackageController : Controller
+    public class PackageController : Controller, INewsletterCreate
     {
         private readonly AngerDbContext _context;
         public PackageController(AngerDbContext context)
         {
             _context=context;
+        }
+
+        public IActionResult Create(VMBase sub)
+        {
+            if (ModelState.IsValid)
+            {
+                if (sub.Subscriber == null)
+                {
+                    throw new Exception("Subscriber cannot be null!");
+                }
+                sub.Subscriber.AddedDate = DateTime.Now;
+                _context.Subscribes.Add(sub.Subscriber);
+                _context.SaveChanges();
+            }
+            return RedirectToAction("index", "package");
         }
 
         public IActionResult Index()
