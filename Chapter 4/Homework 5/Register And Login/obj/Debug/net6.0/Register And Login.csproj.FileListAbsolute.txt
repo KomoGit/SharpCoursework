@@ -75,3 +75,5 @@ D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 5\
 D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 5\Register And Login\obj\Debug\net6.0\Register And Login.pdb
 D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 5\Register And Login\obj\Debug\net6.0\Register And Login.genruntimeconfig.cache
 D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 5\Register And Login\obj\Debug\net6.0\ref\Register And Login.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 5\Register And Login\bin\Debug\net6.0\UAParser.dll
+D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 5\Register And Login\bin\Debug\net6.0\CryptoHelper.dll
