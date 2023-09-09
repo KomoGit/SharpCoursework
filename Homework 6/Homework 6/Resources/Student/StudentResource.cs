@@ -2,6 +2,7 @@
 {
     public class StudentResource:BaseResource
     {
-       
+        public Guid? SchoolId { get; set; }
+        public Guid? TeacherId { get; set; }
     }
 }
