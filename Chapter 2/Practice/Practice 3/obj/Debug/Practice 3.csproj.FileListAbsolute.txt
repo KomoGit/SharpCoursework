@@ -1,8 +1,0 @@
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\bin\Debug\Practice 3.exe.config
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\bin\Debug\Practice 3.exe
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\bin\Debug\Practice 3.pdb
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\obj\Debug\Practice 3.csproj.AssemblyReference.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\obj\Debug\Practice 3.csproj.SuggestedBindingRedirects.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\obj\Debug\Practice 3.csproj.CoreCompileInputs.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\obj\Debug\Practice 3.exe
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Practice\Practice 3\obj\Debug\Practice 3.pdb

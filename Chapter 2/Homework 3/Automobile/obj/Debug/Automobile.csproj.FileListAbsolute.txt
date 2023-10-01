@@ -1,8 +1,0 @@
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\bin\Debug\Automobile.exe.config
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\bin\Debug\Automobile.exe
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\bin\Debug\Automobile.pdb
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\obj\Debug\Automobile.csproj.AssemblyReference.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\obj\Debug\Automobile.csproj.SuggestedBindingRedirects.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\obj\Debug\Automobile.csproj.CoreCompileInputs.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\obj\Debug\Automobile.exe
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Automobile\obj\Debug\Automobile.pdb

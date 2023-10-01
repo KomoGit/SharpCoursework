@@ -1,8 +1,0 @@
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\bin\Debug\Hooomans.exe.config
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\bin\Debug\Hooomans.exe
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\bin\Debug\Hooomans.pdb
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\obj\Debug\Hooomans.csproj.AssemblyReference.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\obj\Debug\Hooomans.csproj.SuggestedBindingRedirects.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\obj\Debug\Hooomans.csproj.CoreCompileInputs.cache
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\obj\Debug\Hooomans.exe
-C:\Users\Elnur\OneDrive\Рабочий стол\Lesson Chapter 1\Chapter 2\Homework 2\Hooomans\obj\Debug\Hooomans.pdb
